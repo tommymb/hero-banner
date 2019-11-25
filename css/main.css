@@ -1,0 +1,27 @@
+html {
+  font-family: "Open Sans";
+}
+
+.imgflex {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+}
