@@ -2,7 +2,7 @@ html {
   font-family: "Open Sans";
 }
 
-.imgflex {
+.img-flex {
   display: flex;
   position: absolute;
   right: 0;
@@ -19,6 +19,8 @@ html {
 h1 {
   font-style: bold;
   font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
