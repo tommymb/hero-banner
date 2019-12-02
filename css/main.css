@@ -8,7 +8,7 @@ html {
 }
 
 .img-flex {
-  display: flex;
+  display: block;
   position: absolute;
   right: 0;
   top: 0;
@@ -16,6 +16,7 @@ html {
   left: 0;
   z-index: 1;
   max-height: 500px;
+  width: 100%
 }
 
 .banner {
@@ -26,7 +27,7 @@ html {
   max-width: 50em;
 }
 
-h1 {
+h2 {
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
