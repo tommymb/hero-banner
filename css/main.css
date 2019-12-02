@@ -27,7 +27,7 @@ html {
   max-width: 50em;
   max-height: 500px;
   overflow: hidden;
-  transform: translate(2,1);
+  transform: translate(0);
 }
 
 h2 {
