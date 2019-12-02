@@ -15,8 +15,7 @@ html {
   bottom: 0;
   left: 0;
   z-index: 1;
-  max-height: 500px;
-  width: 100%
+  width: 100%;
 }
 
 .banner {
@@ -25,6 +24,8 @@ html {
   text-align: center;
   z-index: 2;
   max-width: 50em;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 h2 {
