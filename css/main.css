@@ -16,12 +16,12 @@ html {
 .banner {
   display: flex;
   position: relative;
+  text-align: center;
   z-index: 2;
   max-width: 50em;
 }
 
 h1 {
-  font-style: bold;
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
