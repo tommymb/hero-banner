@@ -22,8 +22,8 @@ body {
 .banner {
   display: flex;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 10rem;
+  left: 15rem;
   bottom: 1rem;
   right: 1rem;
   text-align: left;
