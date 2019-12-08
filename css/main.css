@@ -9,9 +9,9 @@ html {
 
 .img-flex {
   display: block;
-  position: relative;
   width: 100%;
   z-index: 1;
+  position: relative;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   display: flex;
   position: absolute;
   top: 10rem;
-  left: 15rem;
+  left: 10rem;
   bottom: 1rem;
   right: 1rem;
   text-align: left;
