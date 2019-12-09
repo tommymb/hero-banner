@@ -9,6 +9,8 @@ html {
 
 .div1 {
   position: relative;
+  overflow: hidden;
+  max-height: 500px;
 }
 
 .img-flex {
@@ -19,7 +21,6 @@ html {
 }
 
 body {
-  max-height: 500px;
   margin: 0;
 }
 
@@ -30,16 +31,15 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   margin-top: auto;
-  left: 0;
-  right: 0;
+  left: 50%;
   bottom: 0;
-  top: 0;
   text-align: left;
   z-index: 2;
-  overflow: hidden;
-  transform: translate(0);
+  transform: translateX(-50%);
   flex-direction: column;
   max-width: 50em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 h2 {
